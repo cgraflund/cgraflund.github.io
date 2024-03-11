@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { HeaderComponent } from './header/header.component';
 import { RouterOutlet } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { MapComponent } from './map/map.component';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +10,8 @@ import { HomeComponent } from './home/home.component';
   imports: [
     RouterOutlet,
     HeaderComponent,
-    HomeComponent],
+    HomeComponent,
+    MapComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

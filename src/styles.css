@@ -9,10 +9,13 @@
 
 html {
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 body {
     font-family: 'arial';
+    height: 100%;
+    margin: 0;
 }
 
 section {
