@@ -1,1 +1,0 @@
-:root{--primary: #004E98;--blue: #3A6EA5;--silver: #C0C0C0;--white: #EBEBEB;--secondary: #FF6700}html{scroll-behavior:smooth}body{font-family:arial}section{padding:15px 10px}section:nth-child(odd){background-color:var(--silver)}section:nth-child(2n){background-color:var(--white)}h2{color:var(--blue);font-weight:700}
